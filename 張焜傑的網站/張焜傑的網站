@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人網站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .content {
+            margin-bottom: 20px;
+        }
+        .portfolio-item {
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>個人網站</h1>
+    </header>
+    <section>
+        <h2>自我介紹</h2>
+        <div class="content">
+            <p>年齡：24歲</p>
+            <p>畢業系所：國立台灣大學歷史學系</p>
+            <p>我是[你的名字]，有著深厚的歷史學背景，熱衷於研究和分析歷史事件。我希望能夠將我的知識和技能應用到實際工作中，並不斷學習和成長。</p>
+        </div>
+    </section>
+    <section>
+        <h2>作品集</h2>
+        <div class="content">
+            <div class="portfolio-item">
+                <h3>作品一</h3>
+                <p>描述：這是我的第一個作品，展示了我在[某方面]的技能。</p>
+                <img src="path/to/image1.jpg" alt="作品一圖片" style="width:100%;">
+            </div>
+            <div class="portfolio-item">
+                <h3>作品二</h3>
+                <p>描述：這是我的第二個作品，展示了我在[某方面]的技能。</p>
+                <img src="path/to/image2.jpg" alt="作品二圖片" style="width:100%;">
+            </div>
+            <!-- 可以添加更多作品 -->
+        </div>
+    </section>
+    <section>
+        <h2>聯絡方式</h2>
+        <div class="content">
+            <p>請輸入你的聯絡方式：</p>
+            <!-- 可以添加聯絡表單或者直接顯示聯絡信息 -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 [你的名字]</p>
+    </footer>
+</body>
+</html>
